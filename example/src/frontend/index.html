@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Currículums</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestor de Currículums Vitae</h1>
+    <form id="cv-form">
+      <input type="text" id="fullName" placeholder="Nombre y Apellido" required />
+      <textarea id="content" placeholder="Contenido (Markdown)" required></textarea>
+      <button type="submit" class="guardar-btn">Guardar</button>
+      <input type="hidden" id="cvId" />
+    </form>
+    <div id="cv-list"></div>
+    <div id="cv-details"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
