@@ -32,9 +32,10 @@ Para la implementación podes estudiar este repositorio: https://github.com/mode
 
 Y quiero que tomes el archivo@curriculumRoutes.ts para que todos los endpoints declarados sean una tool de un MCP.
 
-Para realizar esto, luego de estudiar el repositorio, quiero que crees en una nueva carpeta llamada "tools" (dentro de la aplicación generada en la carpeta example) la implementación de un MCP.
+Para realizar esto, luego de estudiar el repositorio, quiero que crees en una nueva carpeta llamada "tools" (dentro de la aplicación generada en la carpeta example) la implementación de un MCP. De esta manera en lugar de que la aplicación sea una API, será un MCP.
 
 Instalá todas las dependencias necesarias.
 
 ## Prompt 2
 
+¿Podes generar un archivo readme para el uso y configuración del MCP?
